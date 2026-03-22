@@ -523,8 +523,11 @@ h1{background:linear-gradient(135deg,#fff,#f59e0b 50%,#ea580c);-webkit-backgroun
 </head>
 <body>
 <div class="sticky-messengers" id="stickyMessengers">
-<a class="btn btn-wa" data-wa="true" href="https://wa.me/79604485578" rel="noopener" target="_blank">  WhatsApp</a>
-<a class="btn btn-tg" data-telegram="true" href="https://t.me/anna_more_magic" rel="noopener" target="_blank">  Telegram</a>
+<div class="sticky-messenger-options" id="stickyMessengerOptions">
+<a class="btn btn-wa sticky-messenger-option" data-wa="true" role="button" tabindex="0">📲 WhatsApp</a>
+<a class="btn btn-tg sticky-messenger-option" data-telegram="true" role="button" tabindex="0">✈ Telegram</a>
+</div>
+<button type="button" class="btn sticky-messenger-toggle" id="stickyMessengerToggle" aria-label="Открыть выбор мессенджера" aria-expanded="false">💬</button>
 </div>
 <section class="hero">
 <div class="container">
@@ -629,8 +632,8 @@ h1{background:linear-gradient(135deg,#fff,#f59e0b 50%,#ea580c);-webkit-backgroun
 <h2>Напишите прямо сейчас — первая диагностика ждёт вас!</h2>
 <p style="font-size:1.2rem;color:#fde68a">Тысячи людей уже изменили судьбу. Первый шаг — всего одно сообщение. Я отвечу в течение 5 минут и сделаю расклад по вашей ситуации.</p>
 <div class="cta-buttons">
-<a class="btn btn-wa" data-messenger="wa" href="#">Получить расклад</a>
-<a class="btn btn-tg" data-messenger="tg" href="#">Написать в Telegram</a>
+<a class="btn btn-wa" data-messenger="wa"  role="button" tabindex="0">Получить расклад</a>
+<a class="btn btn-tg" data-messenger="tg"  role="button" tabindex="0">Написать в Telegram</a>
 </div>
 </div>
 </div>
